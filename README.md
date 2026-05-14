@@ -1,20 +1,23 @@
-
 # 🚗 Car Infotainment System – WES Hackathon 2025
-
 **Team Name:** `Dva ERI, Dva RI`  
 **Hackathon:** WES Hackathon 2025  
 **Team Members:** Alberto Kerim, Borna Krušlin, Niko Šikić, Matko Marjanac
 
 ---
 
-## 📌 Overview
+## 🏆 Achievement
 
+> **🥈 2nd Place – WES Hackathon 2025**  
+> Our team secured **second place** and a **cash prize** out of all competing teams!
+
+---
+
+## 📌 Overview
 This project is a **Car Infotainment System** built for ESP32 using **ESP-IDF** and **FreeRTOS**. It integrates sensor readings, a GUI dashboard, and BT capabilities to simulate modern vehicle interfaces. Designed for embedded environments, it provides a scalable and responsive car infotainment experience.
 
 ---
 
 ## 🚀 Features
-
 - Real-time display of vehicle/environmental data
 - Interactive and responsive GUI (built with LVGL)
 - I2C sensor communication
@@ -24,7 +27,6 @@ This project is a **Car Infotainment System** built for ESP32 using **ESP-IDF** 
 ---
 
 ## 🧠 Architecture
-
 ```
 ESP32 (FreeRTOS)
 ├── GUI (LVGL)
@@ -32,7 +34,6 @@ ESP32 (FreeRTOS)
 ├── BT Manager
 └── Main Control Loop (app_main.c)
 ```
-
 - **GUI:** Displays sensor data, status, and UI components
 - **Sensor Manager:** Reads data over I2C from connected hardware
 - **Bluetooth:** Connects and play data over speaker
@@ -40,7 +41,6 @@ ESP32 (FreeRTOS)
 ---
 
 ## 🔧 Tech Stack
-
 - ESP-IDF 5.0.x
 - LVGL 8.3.x
 - FreeRTOS
@@ -51,33 +51,28 @@ ESP32 (FreeRTOS)
 ---
 
 ## 📁 Project Structure
-
-| Path                  | Description                              |
-|-----------------------|------------------------------------------|
-| `main/`               | Entry point (`app_main.c`) and system init |
-| `components/gui/`     | Graphical User Interface code            |
-| `components/sensors/` | Sensor initialization and I2C handling   |
-| `src/bt`| src for bluetooth code for secondary esp32       |
-| `sdkconfig`           | ESP-IDF configuration                    |
-| `Makefile` / `CMakeLists.txt` | Build system setup              |
+| Path                          | Description                                |
+|-------------------------------|--------------------------------------------|
+| `main/`                       | Entry point (`app_main.c`) and system init |
+| `components/gui/`             | Graphical User Interface code              |
+| `components/sensors/`         | Sensor initialization and I2C handling     |
+| `src/bt`                      | src for bluetooth code for secondary esp32 |
+| `sdkconfig`                   | ESP-IDF configuration                      |
+| `Makefile` / `CMakeLists.txt` | Build system setup                         |
 
 ---
 
 ## 🛠️ Setup & Installation
-
 ### Prerequisites
-
 - ByteLab ESP32 board
 - ESP-IDF v5.0.x installed
 - Python 3.x
 - USB connection to board
 
 ### Build & Flash
-
 ```bash
 git clone https://github.com/your-team/WES-main.git
 cd src
-
 #In src dir
 idf.py fullclean
 rm dependencies.lock
@@ -91,26 +86,14 @@ idf.py -p COMX monitor
 
 ## 🖼️ Screenshots
 
-> Add real hardware screenshots or system diagrams here.
-
-```
-📷 images/gui-screenshot.jpg
-📷 images/system-architecture1.png
-📷 images/system-architecture2.png
-📷 images/system-architecture3.png
-```
-
-```markdown
 ![GUI](images/gui-screenshot.jpeg)
 ![Night mode](images/system-architecture1.jpeg)
 ![Radio](images/system-architecture2.jpeg)
 ![Radar](images/system-architecture3.jpeg)
-```
 
 ---
 
 ## 🧪 Demo Use Case
-
 1. Power on ESP32 with attached screen and sensors.
 2. System initializes GUI and I2C interface.
 3. Sensor data updates are reflected live on-screen.
@@ -119,7 +102,6 @@ idf.py -p COMX monitor
 ---
 
 ## 👨‍💻 Team Contributions
-
 | Member            | Role                        |
 |-------------------|-----------------------------|
 | **Alberto Kerim** | Sensor integration, I2C     |
@@ -130,7 +112,4 @@ idf.py -p COMX monitor
 ---
 
 ## 📄 License
-
 This project is developed for educational and non-commercial purposes as part of the WES Hackathon 2025.
-
----
