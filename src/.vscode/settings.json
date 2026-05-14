@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "gui.h": "c",
+        "sensors.h": "c"
+    },
+    "idf.portWin": "COM12",
+    "idf.flashType": "UART"
+}
