@@ -86,10 +86,16 @@ idf.py -p COMX monitor
 
 ## 🖼️ Screenshots
 
-![GUI](images/gui-screenshot.jpeg)
-![Night mode](images/system-architecture1.jpeg)
-![Radio](images/system-architecture2.jpeg)
-![Radar](images/system-architecture3.jpeg)
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="images/gui-screenshot.jpeg" width="100%" alt="GUI"/><br/><sub>GUI</sub></td>
+    <td align="center" width="50%"><img src="images/system-architecture1.jpeg" width="100%" alt="Night mode"/><br/><sub>Night mode</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="images/system-architecture2.jpeg" width="100%" alt="Radio"/><br/><sub>Radio</sub></td>
+    <td align="center" width="50%"><img src="images/system-architecture3.jpeg" width="100%" alt="Radar"/><br/><sub>Radar</sub></td>
+  </tr>
+</table>
 
 ---
 
